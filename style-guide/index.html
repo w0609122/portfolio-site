@@ -1,10 +1,94 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Style Guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <main class="container">
+    <section>
+      <h1>Typography</h1>
+      <p class="primary-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>1234567890?!&</p>
+
+      <div class="typography-example">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum
+          eros mauris, vitae dapibus arcu commodo quis. Suspendisse eu eros iaculis,
+          pulvinar leo ac, elementum arcu. Maecenas gravida neque imperdiet pharetra. Ut lacinia eu ipsum hendrerit
+          lobortis. Sed non ullamcorper vulputate neque, sed porta est.
+        </p>
+      </div>
+    <pre><code>.primary-font {
+    font-family: 'Mileast', serif;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+}</code></pre>
+    </section>
+    <section>
+        <h1>Heading Styles</h1>
+        <div>
+          <h1>This is an H1 heading</h1>
+          <h2>This is an H2 heading</h2>
+          <h3>This is an H3 heading</h3>
+          <h4>This is an H4 heading</h4>
+          <h5>This is an H5 heading</h5>
+          <h6>This is an H6 heading</h6>
+        </div>
+      </section>
+    <section>
+        <h1>Typography in Context</h1>
+        <div class="typography-example">
+          <h2>Exploring Visual Hierarchy</h2>
+          <p>
+            Good typography creates a natural flow through content. The headline grabs attention, while body text remains soft and readable. 
+            When fonts are sized and spaced intentionally, readers don’t need to think, they just follow the content.
+          </p>
+      
+          <h3>Subheading for Additional Context</h3>
+          <p>
+            This paragraph supports the headline with more detail. Notice the consistent spacing, font contrast, and how the layout guides your eyes downward.
+          </p>
+        </div>
+      </section>
+      <section class="editorial">
+        <div class="editorial-image">
+          <img src="images/sample.png" alt="Stylish woman reading a magazine">
+        </div>
+        <div class="editorial-text">
+          <h2>Sample Heading</h2>
+          <p>
+            The creative mind behind Sampling. I have a deep love for vintage samples and I’m a seasoned sampler with a keen eye for sample design. 
+          </p>
+          <a href="#" class="read-more">READ MORE</a>
+        </div>
+      </section>
+      <section>
+        <h1>UI Element</h1>
+        
+        <div class="ui-demo">
+          <div class="card">
+            <h3>Card Title</h3>
+            <p>This is a sample card using background and text colors from the palette. It shows how your palette works in a layout element.</p>
+            <button class="btn-primary">Button</button>
+        </div>
+        </div>
+      </section>
+      
+    <section>
+        <h1>Colours</h1>
+        <div class="swatches">
+          <div class="swatch" style="background-color: #1D1F1E;">#1D1F1E</div>
+          <div class="swatch" style="background-color: #746E6E;">#746E6E</div>
+          <div class="swatch" style="background-color: #B6B2B1;">#B6B2B1</div>
+          <div class="swatch" style="background-color: #F4EBE6;">#F4EBE6</div>
+          <div class="swatch" style="background-color: #D7CBBD;">#D7CBBD</div>
+          <div class="swatch" style="background-color: #A9998A;">#A9998A</div>
+        </div>
+      </section>
+  </main>
 </body>
 </html>

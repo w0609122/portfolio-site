@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Mileast';
+    src: url('../fonts/mileast.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .container > section > h1 {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+  
+  h1 {
+    font-family: 'Mileast', serif;
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+  h2 {
+    font-family: 'Mileast', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-family: 'Mileast', serif;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  h4 {
+    font-family: 'Mileast', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  h5 {
+    font-family: 'Mileast', serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  h6 {
+    font-family: 'Mileast', serif;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    font-style: italic;
+  }
+  
+  .primary-font {
+    font-family: 'Mileast', serif;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .typography-example p {
+    font-family: 'Mileast', serif;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .swatch {
+    padding: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    font-family: monospace;
+    border-radius: 6px;
+    min-width: 120px;
+    text-align: center;
+  }
+  pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-left: 4px solid #1D1F1E;
+    font-family: monospace;
+    overflow-x: auto;
+  }
+.ui-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }  
+  .card {
+    font-family: 'Mileast', serif;
+    background-color: #F4EBE6;
+    color: #1D1F1E;
+    border: 1px solid #D7CBBD;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  .btn-primary {
+    font-family: 'Mileast', serif;
+    background-color: #1D1F1E;
+    color: #F4EBE6;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #746E6E;
+  }
+  .editorial {
+    background-color: #1D1F1E;
+    color: #F4EBE6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .editorial-image img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .editorial-text {
+    max-width: 400px;
+  }
+  
+  .editorial-text h2 {
+    font-family: 'Mileast', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .editorial-text p {
+    font-family: 'Mileast', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #F4EBE6;
+    border-bottom: 1px solid #F4EBE6;
+    font-family: 'Mileast', serif;
+  }
+  
