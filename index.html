@@ -1,1 +1,16 @@
-<meta http-equiv="refresh" content="0; url=https://w0609122.github.io/portfolio-site/style-guide/index.html">
+---
+layout: default
+title: Home
+---
+
+<h1>My Design Projects</h1>
+<div class="design-grid">
+  {% for design in site.designs %}
+    <div class="design-card">
+      <h2>{{ design.title }}</h2>
+      <p><strong>Tools:</strong> {{ design.tools | join: ", " }}</p>
+      <p>{{ design.description }}</p>
+      <a href="{{ design.url }}">View Project</a>
+    </div>
+  {% endfor %}
+</div>
