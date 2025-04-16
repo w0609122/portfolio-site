@@ -4,13 +4,21 @@ title: Home
 ---
 
 <h1>My Design Projects</h1>
-<div class="design-grid">
-  {% for design in site.designs %}
-    <div class="design-card">
-      <h2>{{ design.title }}</h2>
-      <p><strong>Tools:</strong> {{ design.tools | join: ", " }}</p>
-      <p>{{ design.description }}</p>
-      <a href="{{ design.url }}">View Project</a>
+<div class="container">
+  {% include sidebar.html %}
+
+  <div class="main">
+    <h1>My Design Projects</h1>
+    <div class="design-grid">
+      {% for design in site.designs %}
+        <div class="design-card">
+          <h3>{{ design.title }}</h3>
+          <p><strong>Tools:</strong> {{ design.tools | join: ", " }}</p>
+          <p>{{ design.description }}</p>
+          <a href="{{ design.url }}">View Project →</a>
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+  </div>
 </div>
+
